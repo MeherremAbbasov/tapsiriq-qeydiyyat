@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tapsiriq.css">
+</head>
+<body>
+    <div class="container">
+        <div class="blok-container">
+            <div class="text">
+                Registration Form
+            </div>
+            <div class="menu">
+                <form action="">
+                    <span>First Name</span><br>
+                    <input  type="text" placeholder="Johnny" value="Johnny" id="ad" onfocus="yazisil(this.id)"><br>
+                        <span class="adyoxla" id="adyoxla"></span>
+                    <div class="lastname">
+                    <span>Last Name</span><br>
+                    <input id="soyad" type="text" placeholder="Nelson" value="Nelson" onfocus="yazisil(this.id)"><br>
+                    <span class="soyadyoxla" id="soyadyoxla"></span>
+                    </div>
+                    <span>Birthday</span><br>
+                    <input id="dogumtarixi" class="date" type="date" value="dogum tarixi" onfocus="yazisil(this.id)"><br>
+                    <span class="tarixyoxla"></span>
+                    <span>Email</span><br>
+                    <input id="email" type="email" value="email" placeholder="email"><br>
+                    <span class="emailyoxla" id="emailyoxla"></span>
+                    <div class="gender">
+                    <span class="gender-text">Gender</span><br>
+                    <input id="kisi" type="radio" name="Female" value="kisi"><span>Male</span>
+                    <div class="female">
+                    <input id="qadin" type="radio" name="Female" value="qadin"><span>Female</span>
+                    <span class="cinsiyyet"></span>
+                    </div>
+                    </div>
+                    <div class="phone">
+                    <span>Phone Numbder</span><br>
+                    <input id="nomre" type="tel" value="Nomrenizi Yazin" onfocus="yazisil(this.id)"><br>
+                    <span class="nomreyoxla" id="nomreyoxla"></span>
+                    </div>
+                    <span>Subject</span><br>
+                    <select name="" id=""><br>
+                        <option value="">Chonese option</option>
+                    </select> <br>
+                    <button class="sumbit" onclick="melumatyoxla()">Sumbit</button>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="tapsiriq.js"></script>
+</body>
+</html>
